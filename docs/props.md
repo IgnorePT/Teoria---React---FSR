@@ -38,5 +38,22 @@ const App = (props) => {
 };
 
 // Como Utilizamos
-<App title="title" description="" />;
+<App title="title" description="cenas" />;
+```
+
+### Passando booleanos
+
+```jsx
+const Heading = (props) => {
+	return (
+		<main>
+			<h1>{props.title}</h1>
+			{/* Renderização condicional se withSubtitle for true apresentar o subtitulo  */}
+			{pros.withSubtitle && <p>Subtitulo da aplicação</p>}
+		</main>
+	);
+};
+
+// Como Utilizamos
+<Heading title="title" withSubtitle={true} />;
 ```
