@@ -96,9 +96,3 @@ const App = () => {
 <App />
 <App></App>
 ```
-
-## Arquitectura
-
-## Props
-
-## Receita
