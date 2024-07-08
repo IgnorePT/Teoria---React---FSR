@@ -41,7 +41,7 @@ const App = (props) => {
 <App title="title" description="cenas" />;
 ```
 
-### Passando booleanos
+### Passando booleanos como props
 
 ```jsx
 const Heading = (props) => {
